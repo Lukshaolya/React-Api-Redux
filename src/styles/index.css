@@ -1,0 +1,8 @@
+:root {
+  --border-radius-small: 3px 3px 0 0;
+  --spacing-medium: 20px;
+}
+
+body {
+  color: white;
+}
