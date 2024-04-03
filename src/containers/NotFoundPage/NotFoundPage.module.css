@@ -1,0 +1,17 @@
+.notfound__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.pathname {
+  color: var(--color-white);
+  font-family: "Tac One", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 25px;
+  margin-top: var(--spacing-large);
+  text-align: center;
+  text-shadow: var(--text-shadow);
+}
