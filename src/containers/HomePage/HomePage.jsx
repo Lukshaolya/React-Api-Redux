@@ -3,7 +3,7 @@ import styles from "./HomePage.module.css";
 const HomePage = () => {
   return (
     <>
-      <h1>Homegjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjh</h1>
+      <h1>Home</h1>
     </>
   );
 };

@@ -1,10 +1,19 @@
-import { SWAPI_PEOPLE, SWAPI_ROOT, HTTPS, GUIDE_EXTENTION_IMG, URL_IMG_PERSON} from "../constants/api";
+import { SWAPI_PEOPLE, SWAPI_ROOT, HTTP, HTTPS, GUIDE_EXTENTION_IMG, URL_IMG_PERSON} from "../constants/api";
 
+const checkProtocol = (url) => {
+  if (url.indexOf(HTTPS) !== -1) {
+    return HTTPS;
+  }
+
+  return HTTP;
+};
 const getId = (url, category) => {
-  console.log(url);
+  const protocol = checkProtocol(url);
+
   const id = url
-    .replace(HTTPS + SWAPI_ROOT + category, "")
-    .replace(/\//g, '');
+    .replace(HTTP + SWAPI_ROOT + category, "")
+    .replace(protocol + SWAPI_ROOT + category, "")
+    .replace(/\//g, "");
   return id;
 };
 

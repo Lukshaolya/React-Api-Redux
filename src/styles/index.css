@@ -1,8 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Tac+One&display=swap");
+
 :root {
   --border-radius-small: 3px 3px 0 0;
   --spacing-medium: 20px;
+  --spacing-large: 30px;
+
+  --color-white: white;
+  --color-violet: #ae72c2;
+  --color-blue: blue;
+  --font-bold: 600;
+
+  --text-shadow: 0 0 2px var(--color-white), 0 0 40px var(--color-blue);
+  --transition: 0.4s;
+
+  --wrap-max: 1200px;
 }
 
 body {
-  color: white;
+  background-color: black;
+  background-image: url(https://polinka.top/uploads/posts/2023-05/1684545719_polinka-top-p-kartinki-zvezdnoe-nebo-fon-instagram-6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+}
+
+img {
+  display: block;
 }

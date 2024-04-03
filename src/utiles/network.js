@@ -1,9 +1,9 @@
 export const getApiResourse = async (url) => {
   try {
     const res = await fetch(url);
-
+  
     if (!res.ok) {
-      console.error("Wow, opps", res.status);
+      console.error("Could not fetch.", res.status);
       return false;
     }
 

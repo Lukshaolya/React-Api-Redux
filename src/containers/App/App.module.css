@@ -1,9 +1,12 @@
-.container {
+.wrapper {
   max-width: 1170px;
   margin: 0 auto;
+  padding: var(--spacing-large) 0;
 }
 
-body {
-  background-color: black;
-  background-image: url(https://polinka.top/uploads/posts/2023-05/1684545719_polinka-top-p-kartinki-zvezdnoe-nebo-fon-instagram-6.jpg);
+@media screen and (max-width: 1400px){
+  .wrapper {
+    padding: var(--spacing-large) var(--spacing-large);
+  }
+
 }
