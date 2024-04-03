@@ -1,0 +1,45 @@
+.button {
+  font-family: "Star Jedi", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 10px;
+  border: 2px solid #ffe81f;
+  border-radius: 5px;
+  background-color: transparent;
+
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+}
+
+.button:hover {
+  background-color: #ffe81f;
+  color: #000;
+}
+
+.button:disabled {
+  color: grey;
+  border: 2px solid grey;
+}
+
+.button:disabled:hover {
+  opacity: 0.5;
+  cursor: default;
+  background-color: transparent;
+}
+
+/* Стили для активной кнопки */
+.button :global(button.active) {
+  background-color: #ffe81f;
+  color: #000;
+  border-color: #ffe81f;
+}
+
+.light {
+  color: black;
+}
+
+.dark {
+  color: #ffe81f;
+}

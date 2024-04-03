@@ -1,0 +1,9 @@
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  margin: 20px;
+}

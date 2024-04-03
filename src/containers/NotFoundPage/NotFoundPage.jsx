@@ -4,7 +4,6 @@ import styles from "./NotFoundPage.module.css";
 
 const NotFoundPage = () => {
   let location = useLocation();
-  console.log(location.pathname);
 
   return (
     <>
