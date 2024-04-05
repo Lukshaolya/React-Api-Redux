@@ -4,7 +4,6 @@ import ErrorMsg from "../components/ErrorMsg/ErrorMsg";
 export const withErrorApi = (View) => {
   return (props) => {
     const [errorApi, setErrorApi] = useState(false);
-    console.log(errorApi);
     return (
       <>
         {errorApi ? (

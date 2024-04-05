@@ -1,0 +1,9 @@
+.person__img {
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+.person__img img {
+  object-position: center center;
+  border-radius: 5px;
+}
