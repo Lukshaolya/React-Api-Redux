@@ -19,3 +19,13 @@ export const getApiResourse = async (url) => {
     console.error("Oops.", error.message);
   }
 };
+
+export const makeCurrentRequest = async (url) => {
+   const res = await Promise.all(
+     url.map((res) => {
+       return fetch(res).then((res) => res.json());
+     })
+   );
+
+   return res;
+}

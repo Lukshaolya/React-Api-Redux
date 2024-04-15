@@ -1,4 +1,7 @@
 .person__img {
+  position: relative;
+  top: 0;
+  left: 0;
   margin-top: 10px;
   margin-right: 50px;
 }
@@ -6,4 +9,14 @@
 .person__img img {
   object-position: center center;
   border-radius: 5px;
+}
+
+.icon_favorite {
+  position: absolute;
+  top: -25px;
+  right: -10px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px rgb(black));
 }

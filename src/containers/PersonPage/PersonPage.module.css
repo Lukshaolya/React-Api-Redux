@@ -13,7 +13,11 @@
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   border-left: 5px solid var(--color-violet);
   padding: 20px;
+}
+
+.person__link {
+  margin: 20px;
 }
