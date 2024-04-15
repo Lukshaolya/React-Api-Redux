@@ -1,9 +1,12 @@
+import ChooseTheme from "../../components/HomePage/ChooseTheme";
+
 import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
     <>
-      <h1>Home</h1>
+      <h2>Choose Theme</h2>
+      <ChooseTheme />
     </>
   );
 };

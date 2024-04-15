@@ -14,11 +14,23 @@
   --transition: 0.4s;
 
   --wrap-max: 1200px;
+  /*THemes */
+  --theme-light-header: yellow;
+  --theme-dark-header: red;
+  --theme-custom-header: white;
+
+  --theme-default-header: var(--theme-custom-header);
+
+  --theme-default-bgimage: var(--theme-custom-bgimage);
+  --theme-custom-bgimage: url(https://polinka.top/uploads/posts/2023-05/1684545719_polinka-top-p-kartinki-zvezdnoe-nebo-fon-instagram-6.jpg);
+  --theme-light-bgimage: linear-gradient(to right top, #839bbc, #778dab, #6b809a, #5f728a, #54657a);
+  --theme-dark-bgimage: linear-gradient(to right top, #1d0e33, #2c1b4c, #3a2a67, #483984, #554aa2);
+
 }
 
 body {
   background-color: black;
-  background-image: url(https://polinka.top/uploads/posts/2023-05/1684545719_polinka-top-p-kartinki-zvezdnoe-nebo-fon-instagram-6.jpg);
+  background-image: var(--theme-default-bgimage);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top left;
