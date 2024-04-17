@@ -1,6 +1,7 @@
 {
   "name": "first-app",
   "version": "0.1.0",
+  "homepage": "https://lukshaolya.github.io/React-Api-Redux/",
   "private": true,
   "dependencies": {
     "classnames": "^2.5.1",
