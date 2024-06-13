@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Api-Redux/static/css/main.58fe68b2.css",
-    "main.js": "/React-Api-Redux/static/js/main.80fcc0b0.js",
+    "main.js": "/React-Api-Redux/static/js/main.c1716472.js",
     "static/css/999.ade173ef.chunk.css": "/React-Api-Redux/static/css/999.ade173ef.chunk.css",
     "static/js/999.3c52a8e8.chunk.js": "/React-Api-Redux/static/js/999.3c52a8e8.chunk.js",
     "static/media/space.jpg": "/React-Api-Redux/static/media/space.8056b15aae7af662057c.jpg",
@@ -13,12 +13,12 @@
     "static/media/droid.svg": "/React-Api-Redux/static/media/droid.de165dd887badb2bdbe9d97b8e527c6f.svg",
     "index.html": "/React-Api-Redux/index.html",
     "main.58fe68b2.css.map": "/React-Api-Redux/static/css/main.58fe68b2.css.map",
-    "main.80fcc0b0.js.map": "/React-Api-Redux/static/js/main.80fcc0b0.js.map",
+    "main.c1716472.js.map": "/React-Api-Redux/static/js/main.c1716472.js.map",
     "999.ade173ef.chunk.css.map": "/React-Api-Redux/static/css/999.ade173ef.chunk.css.map",
     "999.3c52a8e8.chunk.js.map": "/React-Api-Redux/static/js/999.3c52a8e8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.58fe68b2.css",
-    "static/js/main.80fcc0b0.js"
+    "static/js/main.c1716472.js"
   ]
 }
