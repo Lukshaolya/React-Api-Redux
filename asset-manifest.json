@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/React-Api-Redux/static/css/main.613b2480.css",
-    "main.js": "/React-Api-Redux/static/js/main.f6b5ac6d.js",
-    "static/css/999.570ee059.chunk.css": "/React-Api-Redux/static/css/999.570ee059.chunk.css",
-    "static/js/999.f899047d.chunk.js": "/React-Api-Redux/static/js/999.f899047d.chunk.js",
-    "static/media/dark-side.jpg": "/React-Api-Redux/static/media/dark-side.f7c973b79e27464f2b25.jpg",
-    "static/media/custom-theme.png": "/React-Api-Redux/static/media/custom-theme.9a0d06c753c4dc9abba0.png",
-    "static/media/ligth-theme.jpg": "/React-Api-Redux/static/media/ligth-theme.1edd031a5186d8df5b11.jpg",
+    "main.css": "/React-Api-Redux/static/css/main.ca379295.css",
+    "main.js": "/React-Api-Redux/static/js/main.d5c527ca.js",
+    "static/css/999.ade173ef.chunk.css": "/React-Api-Redux/static/css/999.ade173ef.chunk.css",
+    "static/js/999.3c52a8e8.chunk.js": "/React-Api-Redux/static/js/999.3c52a8e8.chunk.js",
+    "static/media/space.jpg": "/React-Api-Redux/static/media/space.8056b15aae7af662057c.jpg",
+    "static/media/custom-theme.jpg": "/React-Api-Redux/static/media/custom-theme.c1d0a8d1869b3fbdb9ab.jpg",
+    "static/media/dark-side.jpg": "/React-Api-Redux/static/media/dark-side.e0f8cab78e4bdd7db45d.jpg",
+    "static/media/light-side.jpg": "/React-Api-Redux/static/media/light-side.eebc52171cd4ac0278ca.jpg",
     "static/media/404img.png": "/React-Api-Redux/static/media/404img.625c4c0b117d59dc39bd.png",
+    "static/media/lightsaber.svg": "/React-Api-Redux/static/media/lightsaber.eb7d4cd665426117002814db79fceef4.svg",
+    "static/media/droid.svg": "/React-Api-Redux/static/media/droid.de165dd887badb2bdbe9d97b8e527c6f.svg",
     "index.html": "/React-Api-Redux/index.html",
-    "main.613b2480.css.map": "/React-Api-Redux/static/css/main.613b2480.css.map",
-    "main.f6b5ac6d.js.map": "/React-Api-Redux/static/js/main.f6b5ac6d.js.map",
-    "999.570ee059.chunk.css.map": "/React-Api-Redux/static/css/999.570ee059.chunk.css.map",
-    "999.f899047d.chunk.js.map": "/React-Api-Redux/static/js/999.f899047d.chunk.js.map"
+    "main.ca379295.css.map": "/React-Api-Redux/static/css/main.ca379295.css.map",
+    "main.d5c527ca.js.map": "/React-Api-Redux/static/js/main.d5c527ca.js.map",
+    "999.ade173ef.chunk.css.map": "/React-Api-Redux/static/css/999.ade173ef.chunk.css.map",
+    "999.3c52a8e8.chunk.js.map": "/React-Api-Redux/static/js/999.3c52a8e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.613b2480.css",
-    "static/js/main.f6b5ac6d.js"
+    "static/css/main.ca379295.css",
+    "static/js/main.d5c527ca.js"
   ]
 }
