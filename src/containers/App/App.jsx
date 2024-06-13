@@ -11,7 +11,9 @@ import SearchPage from "../SearchPage/SearchPage";
 
 function App() {
   return (
-    <BrowserRouter name="/React-Api-Redux/">
+    <BrowserRouter
+      // basename="/React-Api-Redux/"
+    >
       <div className={styles.wrapper}>
         <Header />
         <Routes>
