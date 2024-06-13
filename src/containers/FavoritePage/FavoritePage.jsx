@@ -21,9 +21,8 @@ const FavoritePage = () => {
       )
       setPeople(res);
     }
-}, [])
+}, [storeData])
 
-  console.log(storeData);
   return (
     <>
       {people.length ?

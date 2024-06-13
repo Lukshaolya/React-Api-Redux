@@ -9,8 +9,11 @@
 }
 
 h2 {
-  font-size: 20px;
-  color: var(--theme-defult-header);
+  font-size: 25px;
+  color: var(--theme-default-header);
+      display: flex;
+    justify-content: center;
+    margin: 50px;
 }
 
 h3 {

@@ -1,11 +1,10 @@
 import ChooseTheme from "../../components/HomePage/ChooseTheme";
 
-import styles from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
     <>
-      <h2>Choose Theme</h2>
+      <h2>Choose your side...</h2>
       <ChooseTheme />
     </>
   );

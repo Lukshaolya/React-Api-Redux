@@ -20,7 +20,7 @@
   border: 2px solid transparent;
   border-radius: var(--border-radius-small);
   color: var(--color-white);
-  font-size: 40px;
+  font-size: 25px;
   text-align: center;
   text-decoration: none;
   font-weight: var(--font-bold);
@@ -33,4 +33,9 @@
   border: 2px solid var(--color-violet);
   color: var(--color-violet);
   text-shadow: none;
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
 }

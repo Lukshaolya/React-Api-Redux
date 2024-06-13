@@ -8,7 +8,6 @@ const PeopleNavigation = ({ getResourse, prevPage, nextPage, counterPage }) => {
 
   return (
     <>
-      <h2>Chactrise</h2>
       <div className={styles.btn_container}>
         <Link to={`/people/?page=${counterPage - 1}`} className={styles.link}>
           <UIButton

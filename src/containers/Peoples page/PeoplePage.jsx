@@ -15,7 +15,6 @@ import {
   getPeoplaPageId,
 } from "../../services/getPeopleData";
 import { useQueryParams } from "../../hooks/useQueryParams";
-import styles from "./PeoplePage.module.css";
 
 const PeoplePage = ({ setErrorApi }) => {
   const [people, setPeople] = useState(null);
@@ -52,6 +51,7 @@ const PeoplePage = ({ setErrorApi }) => {
 
   useEffect(() => {
     getResouse(API_PEOPLE + queryPage);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [queryPage]);
 
   return (

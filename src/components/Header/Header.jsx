@@ -9,8 +9,8 @@ import {
 } from "../../context/ThemeProvider";
 
 import custom_icon from "../../styles/img/icon-1.png";
-import light_icon from "../../styles/img/icon-2.png";
-import dark_icon from "../../styles/img/icon-3.png";
+import light_icon from "../../styles/img/droid.svg";
+import dark_icon from "../../styles/img/lightsaber.svg";
 
 import styles from "./Header.module.css";
 

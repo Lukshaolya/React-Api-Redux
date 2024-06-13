@@ -12,11 +12,8 @@ const PersonFilms = ({ personMovies }) => {
       const response = await makeCurrentRequest(filmsHTTPS);
 
       setFilmsName(response);
-      console.log(response);
     })();
-  }, []);
-
-    console.log('get', filmsName);
+  }, [personMovies]);
 
   return (
     <div className={styles.wrapper}>

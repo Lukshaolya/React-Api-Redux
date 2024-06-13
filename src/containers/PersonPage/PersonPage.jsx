@@ -42,7 +42,6 @@ const PersonPage = ({ id, setErrorApi }) => {
         if (res.films.length > 0) {
           setPersonMovies(res.films);
         }
-        console.log(personMovies, "begin");
         setPersonName(res.name);
         setPersonImage(getPeopleImg(idNum));
         setErrorApi(false);
@@ -51,7 +50,6 @@ const PersonPage = ({ id, setErrorApi }) => {
       }
     })();
   }, []);
-  console.log(personMovies, "set");
 
   return (
     <>

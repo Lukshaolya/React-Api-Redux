@@ -15,7 +15,6 @@ const PersonImage = ({
   personFavorite,
   setPersonFavorite,
 }) => {
-  console.log(personId);
 
   const dispatch = useDispatch();
 

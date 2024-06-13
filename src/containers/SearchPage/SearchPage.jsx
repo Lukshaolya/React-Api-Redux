@@ -15,7 +15,6 @@ const SearchPage = ({ setErrorApi }) => {
   const getResponse = async (param) => {
     const res = await getApiResourse(API_SEARCH + param);
     if (res) {
-      console.log(res);
       const peopleList = res.results.map(({ name, url }) => {
         const id = getPeopleId(url);
         const img = getPeopleImg(id);
@@ -40,17 +39,14 @@ const SearchPage = ({ setErrorApi }) => {
     debounce((value) => getResponse(value), 300), []
   );
     
-
   const handleInputChange = (event) => {
     const value = event.target.value;
-    console.log();
     setInputValue(value);
     debounceGetResponse(value);
   };
 
   return (
     <>
-      <h2>Search</h2>
       <input
         type="text"
         value={inputValue}

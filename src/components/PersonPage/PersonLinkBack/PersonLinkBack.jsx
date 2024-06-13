@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router";
+import { NavLink } from "react-router-dom";
 import icon from "../../../styles/img/light-saber.png";
 import styles from "./PersonLinkBack.module.css";
 
@@ -11,10 +12,10 @@ const PersonLinkBack = () => {
   };
   return (
     <>
-      <a href="#" onClick={handleGoBack} className={styles.link}>
+      <NavLink href="#" onClick={handleGoBack} className={styles.link}>
         <img src={icon} alt="icon" className={styles.icon} />
-        <span>Go baack</span>
-      </a>
+        <span>Go back</span>
+      </NavLink>
     </>
   );
 };

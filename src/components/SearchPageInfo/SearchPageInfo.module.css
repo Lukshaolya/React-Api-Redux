@@ -1,17 +1,17 @@
 .list__container {
   display: flex;
-  /* flex-direction: row; */
-  flex-wrap: wrap;
+  justify-content: center;
+    flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style-type: none;
+  gap: 5%
 }
 
 .list__item {
   width: 100px;
   margin: var(--spacing-medium);
   border-radius: 3px;
-  /* background-color: white; */
   cursor: pointer;
 }
 
